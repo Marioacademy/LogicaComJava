@@ -8,7 +8,7 @@ public class prova2 {
 		System.out.print("Digite a sua nota: ");
 		Double notaDoAluno = scanner.nextDouble();
 		
-		Boolean passouDeAno = notaDoAluno >= 70;
+		Boolean passouDeAno = notaDoAluno == 70;
 		
 		if (passouDeAno) {
 			System.out.println("Parabéns! Você passou de ano.");
